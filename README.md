@@ -17,6 +17,11 @@ If you want to help with actual code, look at the existing GitHub issues. Especi
 
 MIT License.
 
-## Contact
+## Fork
 
-henrik.huttunen@gmail.com
+Тренажер является форком проекта https://www.openvim.com и адаптирован под
+
+## Deploy
+
+docker build . -t 451777/vim_interactive_ru
+docker run -d -p 8889:80 --name=vim_interactive_ru 451777/vim_interactive_ru
